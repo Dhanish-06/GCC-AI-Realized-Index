@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import AuthLayout from "@/components/AuthLayout";
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:3001";
+const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "";
 
 const GCC_LOCATIONS = [
   "Bangalore", "Hyderabad", "Chennai", "Pune", "Mumbai", "Delhi NCR",
